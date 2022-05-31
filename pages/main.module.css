@@ -1,0 +1,23 @@
+.container {
+    height: calc(100% - 20px);
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 10px;
+    gap: 50px;
+}
+
+.productsContainer {
+    overflow: auto;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logoutContainer {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}

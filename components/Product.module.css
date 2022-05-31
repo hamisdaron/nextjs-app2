@@ -1,0 +1,38 @@
+.container {
+    height: 120px;
+    width: 320px;
+    position: relative;
+    display: flex;
+    /* padding: 10px; */
+    background-color: #efefef;
+}
+
+.imgContainer {
+    height: 100%;
+    width: 30%;
+}
+
+.infoContainer {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.titleContainer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descContainer {
+    line-height: normal;
+    overflow: auto;
+    font-size: 14px;
+}
+
+.priceContainer {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
